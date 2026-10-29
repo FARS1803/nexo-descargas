@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Nexo">
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1d352c"/>
+      <stop offset=".52" stop-color="#11221c"/>
+      <stop offset="1" stop-color="#0a1512"/>
+    </linearGradient>
+    <linearGradient id="link" x1=".18" y1=".16" x2=".85" y2=".9">
+      <stop offset="0" stop-color="#c9f0a3"/>
+      <stop offset="1" stop-color="#80d9b1"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".16" cy=".06" r="1">
+      <stop offset="0" stop-color="#638d70" stop-opacity=".31"/>
+      <stop offset="1" stop-color="#638d70" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#base)"/>
+  <rect width="1024" height="1024" fill="url(#glow)"/>
+  <path d="M280 750V274M744 274v476" fill="none" stroke="#f4f6eb" stroke-width="136" stroke-linecap="round"/>
+  <path d="M301 289 723 735" fill="none" stroke="url(#link)" stroke-width="132" stroke-linecap="round"/>
+  <path d="M301 289 723 735" fill="none" stroke="#f2ffe0" stroke-opacity=".18" stroke-width="56" stroke-linecap="round"/>
+</svg>
